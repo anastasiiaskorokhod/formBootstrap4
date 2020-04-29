@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./libs/bootstrap/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="./libs/bootstrap/bootstrap-grid.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <section class="section">
+      <img class="img--bg" src="img/background.jpg" alt="bg" />
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-xl-6">
+            <div class="wrapper">
+              <form
+                class="form"
+                action="javascript:void(0);"
+                autocomplete="off"
+              >
+                <div class="row offset-20">
+                  <div class="col-lg-12">
+                    <h2 class="form__heading">Get in Touch</h2>
+                  </div>
+                  <div class="col-lg-8 col-xl-6">
+                    <input
+                      class="form__field"
+                      type="text"
+                      name="name"
+                      placeholder="Full name"
+                    />
+                  </div>
+                  <div class="col-lg-8 col-xl-6">
+                    <input
+                      class="form__field"
+                      type="email"
+                      name="email"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="col-lg-8 col-xl-6">
+                    <input
+                      class="form__field"
+                      type="tel"
+                      name="phone"
+                      placeholder="Phone"
+                    />
+                  </div>
+                  <div class="col-lg-8 col-xl-6">
+                    <input
+                      class="form__field"
+                      type="text"
+                      name="subject"
+                      placeholder="Subject"
+                    />
+                  </div>
+                  <div class="col-lg-12">
+                    <textarea
+                      class="form__field form--textarea"
+                      name="comment"
+                      placeholder="Comment"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <button class="form__submit">
+                      <span>Send message</span>
+                      <img src="img/arrow.png" alt="icon" />
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
